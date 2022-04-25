@@ -1,0 +1,44 @@
+
+.header{
+    background-color: rgb(165, 165, 168);
+    height: 90px;
+}
+.header #header-left{
+    margin-top: 15px;
+    color: rgb(178, 218, 242);
+}
+.header #header-right{
+    font-size:24px;
+}
+.header #header-left #login{
+    color: rgb(173, 185, 186);
+}
+.body{
+    height: 560px;
+    border: 1px solid rgb(131, 138, 139);
+}
+.body .body_left{
+    background-color: rgb(50, 50, 64);
+    border: 1px solid rgb(131, 138, 139);
+    height: 560px;
+}
+.body .body_left .body_li{
+    color: azure;
+    font-size: 20px;
+}
+.body .body_right{
+    background-color: rgb(193, 189, 189);
+    border: 1px solid rgb(131, 138, 139);
+    height: 560px;
+}
+.button{
+    background-color: rgb(165, 165, 168);
+    border: 1px solid rgb(132, 180, 186);
+    height: 80px;
+}
+.button .button_text{
+    color: rgb(231, 242, 247);
+    font-size: 18px;
+    text-align: center;
+    line-height: 80px;
+}
