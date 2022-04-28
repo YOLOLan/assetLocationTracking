@@ -1,33 +1,39 @@
 
 .header{
-    background-color: rgb(165, 165, 168);
+    background-color: rgb(25, 101, 168);
     height: 90px;
 }
 .header #header-left{
     margin-top: 15px;
-    color: rgb(178, 218, 242);
+    color: rgb(217, 230, 237);
 }
 .header #header-right{
-    font-size:24px;
+    margin-top: 15px;
+    font-size:18px;
 }
-.header #header-left #login{
-    color: rgb(173, 185, 186);
+.header #header-left .user{
+    text-align: center;
+    line-height: 90px;
+}
+.header #header-left .user,h3{
+    color: #f7f4c7;
 }
 .body{
     height: 560px;
     border: 1px solid rgb(131, 138, 139);
 }
-.body .body_left{
-    background-color: rgb(50, 50, 64);
+.body .body-left{
+    background-color: rgba(231, 231, 226, 0.774);
     border: 1px solid rgb(131, 138, 139);
     height: 560px;
 }
-.body .body_left .body_li{
-    color: azure;
+.body .body-left .body-li{
+    margin-top: 10px;
+    margin-left: 13px;
     font-size: 20px;
 }
-.body .body_right{
-    background-color: rgb(193, 189, 189);
+.body .body-right{
+    background-color: rgb(230, 225, 225);
     border: 1px solid rgb(131, 138, 139);
     height: 560px;
 }
@@ -36,9 +42,16 @@
     border: 1px solid rgb(132, 180, 186);
     height: 80px;
 }
-.button .button_text{
+.button .button-text{
     color: rgb(231, 242, 247);
     font-size: 18px;
     text-align: center;
     line-height: 80px;
+}
+.page-header{
+    margin-left: 10px;
+}
+.page-header h4{
+    border-left:3px solid #329fe2; 
+    padding-left: 5px;
 }
